@@ -1,4 +1,3 @@
-import React from 'react';
 import { UserPlus, Mail, Gift, ThumbsUp } from 'lucide-react';
 
 const Features = () => {

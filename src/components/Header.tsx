@@ -1,4 +1,3 @@
-import React from 'react';
 import { BookOpen, ChevronDown, Menu } from 'lucide-react';
 
 const Header = () => {
