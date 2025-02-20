@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Header from './components/Header';
 import Features from './components/Features';
 import ReferralTable from './components/ReferralTable';
@@ -6,8 +6,9 @@ import Footer from './components/Footer';
 import ReferralModal from './components/ReferralModal';
 import { ArrowRight } from 'lucide-react';
 
+
 function App() {
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false)
 
   return (
     <div className="min-h-screen bg-white">
